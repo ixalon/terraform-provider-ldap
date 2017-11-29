@@ -29,11 +29,11 @@ fi
 # #!/bin/bash
 
 # rm -fr /tmp/gopath
-# mkdir -p /tmp/gopath/src/github.com/terraform-providers/terraform-provider-ldap
+# mkdir -p /tmp/gopath/src/github.com/mevansam/terraform-provider-ldap
 # EOF
 
 # scp -q -r -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -i .test_env/pcfdev.pem \
-#     ./* ubuntu@$PUBLIC_IP:/tmp/gopath/src/github.com/terraform-providers/terraform-provider-ldap
+#     ./* ubuntu@$PUBLIC_IP:/tmp/gopath/src/github.com/mevansam/terraform-provider-ldap
 
 # ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -i .test_env/pcfdev.pem ubuntu@$PUBLIC_IP <<EOF
 # #!/bin/bash
@@ -46,7 +46,7 @@ fi
 
 # export GOROOT=/usr/local/go
 # export GOPATH=/tmp/gopath
-# cd /tmp/gopath/src/github.com/terraform-providers/terraform-provider-ldap
+# cd /tmp/gopath/src/github.com/mevansam/terraform-provider-ldap
 
 # export LDAP_HOST=172.16.45.144
 # export LDAP_BIND_DN=cn=admin,dc=example,dc=org

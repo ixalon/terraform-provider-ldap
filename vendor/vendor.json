@@ -626,5 +626,5 @@
 			"revisionTime": "2016-12-01T20:47:33Z"
 		}
 	],
-	"rootPath": "github.com/terraform-providers/terraform-provider-ldap"
+	"rootPath": "github.com/mevansam/terraform-provider-ldap"
 }

@@ -15,7 +15,7 @@ Requirements
 Building The Provider
 ---------------------
 
-Clone repository to: `$GOPATH/src/github.com/terraform-providers/terraform-provider-ldap`
+Clone repository to: `$GOPATH/src/github.com/mevansam/terraform-provider-ldap`
 
 ```sh
 $ mkdir -p $GOPATH/src/github.com/terraform-providers; cd $GOPATH/src/github.com/terraform-providers
@@ -25,7 +25,7 @@ $ git clone git@github.com:terraform-providers/terraform-provider-ldap
 Enter the provider directory and build the provider
 
 ```sh
-$ cd $GOPATH/src/github.com/terraform-providers/terraform-provider-ldap
+$ cd $GOPATH/src/github.com/mevansam/terraform-provider-ldap
 $ make build
 ```
 
@@ -39,7 +39,7 @@ Developing the Provider
 
 If you wish to work on the provider, you'll first need [Go](http://www.golang.org) installed on your machine (version 1.8+ is *required*). You'll also need to correctly setup a [GOPATH](http://golang.org/doc/code.html#GOPATH), as well as adding `$GOPATH/bin` to your `$PATH`.
 
-Clone this repository to `GOPATH/src/github.com/terraform-providers/terraform-provider-ldap` as its packaging structure 
+Clone this repository to `GOPATH/src/github.com/mevansam/terraform-provider-ldap` as its packaging structure 
 has been defined such that it will be compatible with the Terraform provider plugin framwork in 0.10.x.
 
 To compile the provider, run `make build`. This will build the provider and put the provider binary in the `$GOPATH/bin` directory.
